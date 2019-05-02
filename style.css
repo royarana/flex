@@ -1,0 +1,187 @@
+/*General CSS*/
+body {
+    background-color: white;
+    padding: 0px;
+    margin: 0px;
+    font-size: 16px;
+    font-family: 'Just Another Hand', cursive;
+
+}
+nav{
+    background-color: #0039e6;
+    color: #77a8a8;
+
+}
+nav #nav-list{
+    list-style-type: none;
+    padding: 0px;
+    margin: 0px;
+    font-size: 35px;
+
+}
+nav ul li{
+    padding: 16px;
+    text-align: center;
+    border: 0px solid black;
+    transition: background-color 0.3s, padding 0.8s linear;
+
+}
+/*Nav Transition*/
+nav ul li:hover{
+    background-color: white;
+}
+
+
+a{
+    text-decoration: none;
+    color: #000;
+    text-shadow: 2px 2px 4px #000;
+    font-size: 25px;
+
+}
+
+#main {
+    min-height: 550px;
+    margin-top: 0px;
+    padding-top: 200px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: black;
+    margin-bottom: 100px;
+    background: linear-gradient(to bottom, rgba(93, 91, 99, 0.4), rgba(148, 183, 67, 1)), url(3.jpg);
+    text-shadow: 2px 2px 4px #ffffff;
+}
+
+#main h1{
+    margin: 0px;
+    text-align: center;
+    font-size: 75px;
+}
+
+#main p{
+    width:50%;
+    text-align: center;
+    font-size: 30px;
+
+}
+
+#testimonials
+{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    text-align: center;
+    font-family: 'Sofia', cursive; 
+
+}
+
+.customer:hover{
+    border: 2px black solid;
+    text-align: center;
+    border-radius: 100px; 
+    margin-right: 20px;
+    margin: 30px;
+    transition: transform 0.3s;
+    box-shadow: 0px 0px 30px;
+}
+
+#showcase{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.cards{
+    max-width: 300px
+    display:flex;
+    justify-content: center;
+    flex-direction: column;
+    margin:10px;
+    box-shadow: 0px, 0px, 5px;
+    border: 2px black solid;
+    border-radius: 0px; 
+    margin-right: 20px;
+    margin: 30px;
+    text-align: center;
+
+
+}
+
+.cards .card-ing{
+    height: 300px;
+    width: 250px;
+
+
+}
+
+.cards .card-ing img {
+    height: 100%;
+    width: 100%;
+
+  }
+
+  .cards .card-desk{
+    padding: 10px;
+    margin-bottom: 20px;
+    text-shadow: 2px 2px 4px #ffffff;
+  }
+
+  .cards .button{
+    margin: 10px;
+  }
+
+  .card .button a{
+    padding: 10px;
+    color: black;
+    background-color: gray;
+
+  }
+    
+
+footer{
+    background-color: gray;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+
+}
+
+footer a{
+    padding: 20px;
+    font-size: 30px
+}
+#media-icon ul{
+    display: flex;
+    list-style-type: none;
+    padding: 20px;
+}
+ 
+
+
+
+
+
+
+
+
+/*for responsive web design*/
+@media screen and (min-width: 700px){
+    
+    nav ul{
+        text-align: right;
+
+    }
+
+    nav ul li{
+        display:inline-block;
+        border-bottom: 0px;
+        border-left: 0px solid black;
+        text-align: left;
+
+
+    }
+
+}
